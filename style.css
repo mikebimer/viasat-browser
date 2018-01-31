@@ -98,6 +98,17 @@ header {
 
 .hero-copy {
 	padding-top: 30px;
+	text-align: center;
+}
+
+.viasat-browser {
+	width: 100%;
+	max-width: 440px;
+	margin: 0 auto 60px;
+}
+
+.viasat-browser img {
+	width: 100%;
 }
 
 .highlight-icon {
@@ -265,11 +276,11 @@ footer {
 	}
 
 	.hero {
-		height: 600px;
+		height: 810px;
 		background-position: bottom right;
 		background-size: 100%;
 		background-repeat: no-repeat;
-		max-width: 1920px;
+		max-width: 1605px;
 		margin: 0 auto;
 	}
 
@@ -283,6 +294,8 @@ footer {
 
 	.about-hero .hero-copy {
 		max-width: 700px;
+		text-align: left;
+		padding-top: 85px;
 	}
 
 	.highlight-icon svg {
@@ -316,8 +329,8 @@ footer {
 @media (min-width: 768px) {
 
 	header {
-		padding-top: 35px;
-		padding-bottom: 35px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.navbar-brand {
@@ -366,7 +379,11 @@ footer {
 @media (min-width: 1200px) {
 
 	.hero {
-		height: 700px;
+		height: 900px;
+	}
+
+	.about-hero {
+		height: 800px;
 	}
 
 	.highlight-icon {
@@ -384,35 +401,14 @@ footer {
 }
 
 /* (desktops, 1600px and up) */
-@media (min-width: 1600px) {
+@media (min-width: 1500px) {
 
 	.hero {
+		height: 1000px;
+	}
+
+	.about-hero {
 		height: 800px;
-	}
-
-	.hero-copy {
-		padding-top: 85px;
-	}
-
-}
-
-/* (desktops, 1700px and up) */
-@media (min-width: 1700px) {
-
-	.hero-copy {
-		padding-top: 72px;
-	}
-
-	.container {
-		max-width: 1600px;
-	}
-
-	.highlight-icon {
-		padding: 10px 45px 0;
-	}
-
-	.highlight-icon-speed {
-		padding: 10px 33px 0;
 	}
 
 }
